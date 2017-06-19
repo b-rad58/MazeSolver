@@ -3,9 +3,13 @@
 A simple rectangular m x n maze can be specified as m n-length strings in a file
 such that position (x,y) in the maze corresponds to a wall(#), corridor(-), current
 position(*) or goal($). A sample 3 x 5 maze is as follows:
+
 #####
+
 #--*#
+
 #$###
+
 The upper left, upper right, lower left and lower right corners of the maze have
 co-ordinates (0,0), (0,n-1), (m-1,0), and (m-1,n-1), respectively, on the 2-D
 integer plane. A move on the 2-D integer plane can be specified as follows:
